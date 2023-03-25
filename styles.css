@@ -17,7 +17,9 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #dee2e6;
-  padding-bottom: 0.
+  padding-bottom: 0;
+}
+
 #info-systems-carousel {
   background-color: #ffffff;
   padding: 2rem;
@@ -25,8 +27,6 @@ h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
-}
 .gb-eng {
   background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_Kingdom.svg/1920px-Flag_of_the_United_Kingdom.svg.png');
   background-size: cover;
@@ -36,7 +36,7 @@ h2 {
   margin-right: 0.5em;
 }
 
-.gb-wls {
+.flag-wls {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg/1920px-Flag_of_Wales_%281959%E2%80%93present%29.svg.png');
   background-size: cover;
   display: inline-block;
@@ -44,10 +44,12 @@ h2 {
   height: 1em;
   margin-right: 0.5em;
 }
+
 h2 i.gb-wls {
   margin-right: 0.5em;
   vertical-align: middle;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.5);
@@ -59,12 +61,4 @@ h2 i.gb-wls {
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
   background-color: rgba(0, 0, 0, 0.7);
-}
-.flag-wls {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg/1920px-Flag_of_Wales_%281959%E2%80%93present%29.svg.png');
-  background-size: cover;
-  display: inline-block;
-  width: 1.5em;
-  height: 1em;
-  margin-right: 0.5em;
 }
