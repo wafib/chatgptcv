@@ -41,16 +41,10 @@ h2 i.gb-wls {
   margin-right: 0.5em;
   vertical-align: middle;
 }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+.carousel-content {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
